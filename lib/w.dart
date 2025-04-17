@@ -23,7 +23,7 @@ class _WeatherPageState extends State<WeatherPage> {
   }
 
   fetchWeather() async {
-    final apiKey = 'YOUR_API_KEY_HERE';
+    final apiKey = 'S84NDIM3N2NAJ2M3N44NIF94N4N5B5B5YHHBDHEBEGEHE223B4HENEJEJE';
     final url =
         'https://api.openweathermap.org/data/2.5/weather?q=${widget.city}&appid=$apiKey&units=metric';
 
